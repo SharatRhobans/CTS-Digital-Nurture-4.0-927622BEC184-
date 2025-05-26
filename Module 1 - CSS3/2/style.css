@@ -1,0 +1,85 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.nav-bar {
+    background: #6a82fb;
+    padding: 22px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 4px 18px rgba(106,130,251,0.13);
+}
+
+.logo {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 8px rgba(0,0,0,0.08);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+.nav-links li {
+    margin: 0 8px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 6px;
+    transition: background 0.18s, color 0.18s;
+}
+
+.nav-links a:hover {
+    background: #fda085;
+    color: #fffbe7;
+}
+
+.content {
+    text-align: center;
+    margin-top: 70px;
+    background: #fffbe7;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(246,211,101,0.10);
+    padding: 40px 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    background: linear-gradient(90deg, #6a82fb 0%, #f6d365 100%);
+    color: #fff;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(106,130,251,0.10);
+    transition: background 0.18s, transform 0.18s;
+}
+
+.cta-button:hover {
+    background: linear-gradient(90deg, #fda085 0%, #f6d365 100%);
+    color: #6a82fb;
+    transform: translateY(-2px) scale(1.04);
+}

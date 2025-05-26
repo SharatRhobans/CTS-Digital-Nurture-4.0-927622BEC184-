@@ -1,0 +1,31 @@
+/* Modernized body style with improved background handling */
+body {
+  color: #22223b;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: url('smart-city-digital-transformation-development-600nw-2465034603.webp') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* Gradient header with shadow and rounded corners */
+header {
+  background: linear-gradient(90deg, #ff7e5f 0%, #feb47b 100%);
+  color: #fff;
+  padding: 32px 0 24px 0;
+  text-align: center;
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 4px 18px rgba(255,126,95,0.13);
+  position: relative;
+  z-index: 1;
+  margin-bottom: 32px;
+}
+
+header h1, header h2, header h3 {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 8px rgba(0,0,0,0.08);
+}
